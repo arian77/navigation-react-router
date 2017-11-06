@@ -6,7 +6,7 @@ const App = () => (
   <Router>
     <div>
       <Route exact path="/" render={() => <h1>Home </h1>} />
-      <Route path="/portofolio" render={() => <h1>About </h1>} />
+      <Route path="/portofolio" render={() => <h1>Portofolio </h1>} />
       <Route path="/contact" render={() => <h1> Contact </h1>} />
     </div>
   </Router>
