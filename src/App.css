@@ -22,6 +22,21 @@
   font-size: large;
 }
 
+.h {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.c {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

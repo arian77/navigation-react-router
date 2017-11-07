@@ -4,9 +4,13 @@ import "./App.css";
 
 const Links = () => (
   <nav>
-    <Link to="/">Home </Link>
-    <Link to={{ pathname: "/portofolio" }}>Portofolio</Link>
-    <Link replace to="/contact">
+    <Link className="h" to="/">
+      Home{" "}
+    </Link>
+    <Link className="p" to={{ pathname: "/portofolio" }}>
+      Portofolio
+    </Link>
+    <Link className="c" replace to="/contact">
       Contact
     </Link>
   </nav>
